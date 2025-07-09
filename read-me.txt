@@ -1,0 +1,14 @@
+Consider the pendulum and with a length l and a mass m. Using equilibrium of forces in the
+polar system, the Ordinary Differential Equation (ODE) that describes the system can be written as: 
+
+d^2(theta)/d(t^2) = -(m*g*r*sin(theta))/(I_G +(m*r^2))
+
+Mass (m) 0.1270
+Length = 0.3365
+Distance from pivot point to centre of gravity (r) = 0.1778
+Moment of inertia about centre of gravity (I_G) = 2.9 E-5
+
+The algorithm for the Runge-Kutta 4th-order method in Matlab can solve the nonlinear ODE numerically with different theta values (found in lab at Simon Frase University)
+amplitudes. 
+
+Here the simulation of the pendulum is for 8s with a time step of ℎ = 0.1s. 
